@@ -332,3 +332,8 @@ same `group_add` on both, a limiter `healthcheck` of `["/ratelimiter", "-probe",
 `depends_on: { ratelimiter: { condition: service_healthy } }` on Nginx.
 
 None of this has been built or tested yet.
+
+
+Read Next: 
+https://kubernetes.io/blog/2023/08/25/native-sidecar-containers/
+https://kubernetes.io/blog/2015/06/the-distributed-system-toolkit-patterns/
